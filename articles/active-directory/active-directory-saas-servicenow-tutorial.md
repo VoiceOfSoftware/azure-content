@@ -17,26 +17,26 @@
 	ms.author="jeedes"/>
 
 
-# Tutorial: Azure Active Directory integration with ServiceNow and ServiceNow Express.
+# Tutorial: Azure Active Directory integration with ServiceNow Enterprise and ServiceNow Express.
 
-In this tutorial, you learn how to integrate ServiceNow and ServiceNow Express with Azure Active Directory (Azure AD).
+In this tutorial, you learn how to integrate ServiceNow Enterprise and ServiceNow Express with Azure Active Directory (Azure AD).
 
-Integrating ServiceNow and ServiceNow Express with Azure AD provides you with the following benefits:
+Integrating ServiceNow Enterprise and ServiceNow Express with Azure AD provides you with the following benefits:
 
-- You can control in Azure AD who has access to ServiceNow and ServiceNow Express
-- You can enable your users to automatically get signed-on to ServiceNow and ServiceNow Express (Single Sign-On) with their Azure AD accounts
+- You can control in Azure AD who has access to ServiceNow Enterprise and ServiceNow Express
+- You can enable your users to automatically get signed-on to ServiceNow Enterprise and ServiceNow Express (Single Sign-On) with their Azure AD accounts
 - You can manage your accounts in one central location - the Azure classic portal
 
 If you want to know more details about SaaS app integration with Azure AD, see [What is application access and single sign-on with Azure Active Directory](active-directory-appssoaccess-whatis.md).
 
 ## Prerequisites
 
-To configure Azure AD integration with ServiceNow and ServiceNow Express, you need the following items:
+To configure Azure AD integration with ServiceNow Enterprise and ServiceNow Express, you need the following items:
 
 - An Azure AD subscription
-- For ServiceNow, a tenant in ServiceNow, Calgary version or higher
-- For ServiceNow Express, a tenant in ServiceNow Express, Helsinki version or higher
-- ServiceNow tenant must have the [Multiple Provider Single Sign On Plugin](http://wiki.servicenow.com/index.php?title=Multiple_Provider_Single_Sign-On#gsc.tab=0) enabled. This can be done by submitting a service request at <https://hi.service-now.com/> 
+- For ServiceNow Enterprise, an instance of ServiceNow Enterprise, Calgary version or higher
+- For ServiceNow Express, an instance of ServiceNow Express, Helsinki version or higher
+- ServiceNow must have the [Multiple Provider Single Sign On Plugin](http://wiki.servicenow.com/index.php?title=Multiple_Provider_Single_Sign-On#gsc.tab=0) enabled. This can be done by submitting a service request at <https://hi.service-now.com/> or activating directly from your instance <https://YOUR_INSTANCE_NAME.service-now.com/v_plugin_list.do?sysparm_query=name%3DIntegration%20-%20Multiple%20Provider%20Single%20Sign-On%20Installer> (note: you must have administrative privileges on your ServiceNow instance)
 
 
 > [AZURE.NOTE] To test the steps in this tutorial, we do not recommend using a production environment.
